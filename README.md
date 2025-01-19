@@ -34,7 +34,7 @@ Add buttons like "Download resource".
 Footer Section
 Add essential links like:
 Privacy Policy
-Terms & Conditions
+Terms & Conditions 
 Contact Details (email, phone, and a form).
 Social Media Links: Icons for Instagram, Twitter, GitHub, LinkedIn.
 Visual Design Suggestions
