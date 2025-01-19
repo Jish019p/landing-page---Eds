@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal Member</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a8ce0896db.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Picsart_25-01-19_06-15-47-218.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#Member">Members</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-duotone fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+
+                <br><br><br><br>
+                <h1> <span>Create. Innovate. Collaborate. </span>  <br> </h1>
+            </div>
+        </div>
+    </div>
+    <!-- <---------about----------> 
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Picsart_25-01-19_06-15-47-218.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About us</h1>
+                    <p> Echolen Dev Society is the official hackathon and development club of our college, dedicated to fostering a vibrant community of tech enthusiasts, problem solvers, and innovators. The club serves as a platform for students passionate about coding, software development, and technology-driven solutions to come together, collaborate, and bring their ideas to life. It organizes hackathons, coding competitions, workshops, and mentoring sessions to encourage skill-building and creative thinking among its members.
+
+                        Echolen Dev Society believes in the power of innovation and teamwork to tackle real-world challenges. By hosting events that simulate industry-like scenarios, the club inspires participants to create impactful projects while learning the latest tools and technologies. Members gain exposure to collaborative problem-solving, networking opportunities with industry professionals, and hands-on experience with emerging technologies like artificial intelligence, blockchain, and web development.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-link active-link" onclick="opentab('events')">Events</p>
+                        <p class="tab-link " onclick=" opentab('experience')">Past hackathon</p>
+                        <p class="tab-link " onclick=" opentab('achievement')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="events">
+                        <ul>
+                            <li><span>Upcoming</span><br>check upcoming event list here</li>
+                            <li><span>Completed</span><br> events we have completed till now</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents " id="experience">
+                        <ul>
+                            <li><span>Hack Wave (2022)</span><br>the national level Hackathon we have organised in 2022</hackathon></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="achievement">
+                        <ul>
+                            <li><span>achievement list</span><br>1.------ <br>2.---------</li>
+                            <!-- <li><span>python</span><br>Developer</li> -->
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------- ----------------services-------------------------------->
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">Our arsenal of wisdom</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-web-awesome"></i>
+                <h2>Achievements</h2>
+                <p>Proud accomplishments include winning inter-college hackathons, hosting record-breaking events, and mentoring innovative projects recognized at national and global levels.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-notes-medical"></i>
+                <h2>Upcoming Events</h2>
+                <p>Stay tuned for exciting hackathons, coding challenges, and tech workshops designed to ignite innovation and creativity. Don't miss the chance to showcase your skills and network with industry leaders!</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-trophy"></i>
+                <h2>Past Hackathon</h2>
+                <p>Previously hosted hackathons featured themes like AI, fintech, and sustainability, attracting enthusiastic participation, groundbreaking ideas, and exceptional solutions from creative minds.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+   <!-- --------------------Member--------- -->
+   <div id="Member">
+    <div class="container">
+      <h1 class="sub-title">Members</h1>
+     <div class="work-list">
+         <div class="work">
+            <img src="images/work-1.png" >
+            <div class="layer">
+                <h3><span>Social media Team members</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ullam.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-2.png" >
+            <div class="layer">
+                <h3><span> Tech Team members</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ullam.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+         </div>
+         <div class="work">
+            <img src="images/work-3.png" >
+            <div class="layer">
+                <h3><span>Management and Operation Team members</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, ullam.
+                </p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+    </div>
+   </div>
+   <!-- -----------contact------- -->
+    <div id="contact">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact US</h1>
+                <p><i class="fa-solid fa-message"></i>
+                    EDS@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>
+                    +91-1234567890</p>
+                <div class="social">
+                    <a href="#"><i class="fa-brands fa-line"></i></a>
+                    <!-- <a href="#"><i class="fa-brands fa-twitter"></i></a> -->
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-discord"></i></a>
+
+                </div>
+                <a href=".pdf" download class="btn btn2" >Download Details</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="message" rows="13" placeholder="Your message" required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copyright"> EDS 2023 @ jishan <i class="fa-solid fa-heart"></i> copyright </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-link");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+            function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0"
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbweriey14Gz9fDEvzlypwwflRvbzEgLgaIb1NHJypT7nK7FZrJQvUKmn0RtNe_dq-RH/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "message sent successfully"
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
